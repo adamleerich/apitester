@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            // WARNING includePath and defines only affect Intellisense, not compiling
+            // You will need edit the Makefile too
+            "includePath": [
+                "C:/home/git/R/r-source/include/**", "${workspaceFolder}/**", "c:\\rtools44\\mingw64\\include"
+            ],
+            "defines": [
+                // "_DEBUG",
+                // "UNICODE",
+                // "_UNICODE"
+                // "MATHLIB_STANDALONE",
+                "IEEE_754",
+                "R_NO_REMAP"
+            ],
+            "compilerPath": "C:\\rtools44\\x86_64-w64-mingw32.static.posix\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

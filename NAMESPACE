@@ -1,0 +1,6 @@
+useDynLib(apitester)
+export(isReal)
+export(TYPEOF)
+export(type2str)
+export(TYPEOF_list)
+export(new_SEXP)

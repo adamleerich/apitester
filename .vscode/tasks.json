@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run cmocka test",
+			// passed to cmd.exe
+			"command": "bash -c \"make -C tests/cmocka ${fileBasenameNoExtension}.exe\"",
+			// "command": "bash -c \"make ${fileBasenameNoExtension}.exe\"",
+			"args": [
+				""
+			],
+			"options": {},
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"presentation": {
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": false
+			},
+		}
+	]
+}

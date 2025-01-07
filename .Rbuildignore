@@ -1,0 +1,5 @@
+^apitester\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^tests/cmocka$
+^_sandbox$

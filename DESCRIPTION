@@ -1,0 +1,16 @@
+Package: apitester
+Title: R API Tester
+Version: 0.0.1
+Authors@R: 
+    person(
+        given = "Adam", family = "Rich", 
+        email = "adam@adamleerich.com", 
+        role = c("aut", "cre", "cph"), 
+        comment = c(ORCID = "0009-0007-0992-1956"))
+Description: Learn how to use the R API.
+License: CC0
+Encoding: UTF-8
+NeedsCompilation: yes
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
