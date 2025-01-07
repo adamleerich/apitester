@@ -163,3 +163,18 @@ COMPILING_R
 TESTING_WRITE_BARRIER
 STRICT_TYPECHECK
 CATCH_ZERO_LENGTH_ACCESS
+
+
+## DLL notes
+
+> It is good practice for DLLs to register their symbols 
+(see Section 5.4 [Registering native routines], page 128),
+restrict visibility (see Section 6.16 [Controlling visibility], page 188) and
+not allow symbol search (see Section 5.4 [Registering native routines], page 128).
+It should be possible for a DLL to have only one visible symbol, R_init_pkgname, 
+on suitable platforms, which would completely avoid symbol conflicts.
+
+
+
+
+

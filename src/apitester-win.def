@@ -1,0 +1,3 @@
+LIBRARY apitester.dll
+EXPORTS
+ R_init_apitester

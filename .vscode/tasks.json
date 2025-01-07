@@ -19,7 +19,27 @@
 			"presentation": {
 				"panel": "shared",
 				"showReuseMessage": false,
-				"clear": false
+				"clear": true
+			},
+		},
+		{
+			"type": "shell",
+			"label": "Run ALL testthat tests",
+			// passed to cmd.exe
+			"command": "R --vanilla -q -e \"devtools::test()\"",
+			"args": [
+				""
+			],
+			"options": {},
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"presentation": {
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": true
 			},
 		}
 	]

@@ -1,6 +1,7 @@
-useDynLib(apitester)
-export(isReal)
+# Refer to all C/Fortran routines by their name prefixed by C_
+useDynLib(apitester, .registration = TRUE, .fixes = "C")
+
 export(TYPEOF)
-export(type2str)
 export(TYPEOF_list)
-export(new_SEXP)
+export(isReal)
+export(type2str)
