@@ -5,8 +5,7 @@
 			"type": "shell",
 			"label": "Run cmocka test",
 			// passed to cmd.exe
-			"command": "bash -c \"make -C tests/cmocka ${fileBasenameNoExtension}.exe\"",
-			// "command": "bash -c \"make ${fileBasenameNoExtension}.exe\"",
+			"command": "bash -c \"source ~/.bash_profile; make -C tests/cmocka ${fileBasenameNoExtension}.exe\"",
 			"args": [
 				""
 			],
