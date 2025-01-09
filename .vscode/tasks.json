@@ -1,11 +1,31 @@
 {
 	"version": "2.0.0",
 	"tasks": [
+		// {
+		// 	"type": "shell",
+		// 	"label": "Run cmocka test",
+		// 	// passed to cmd.exe
+		// 	"command": "bash -c \"source ~/.bash_profile; make -C tests/cmocka ${fileBasenameNoExtension}.exe\"",
+		// 	"args": [
+		// 		""
+		// 	],
+		// 	"options": {},
+		// 	"problemMatcher": [],
+		// 	"group": {
+		// 		"kind": "build",
+		// 		"isDefault": false
+		// 	},
+		// 	"presentation": {
+		// 		"panel": "shared",
+		// 		"showReuseMessage": false,
+		// 		"clear": true
+		// 	},
+		// },
 		{
 			"type": "shell",
-			"label": "Run cmocka test",
+			"label": "Run minunit test",
 			// passed to cmd.exe
-			"command": "bash -c \"source ~/.bash_profile; make -C tests/cmocka ${fileBasenameNoExtension}.exe\"",
+			"command": "bash -c \"source ~/.bash_profile; make -C tests/minunit ${fileBasenameNoExtension}.exe\"",
 			"args": [
 				""
 			],
